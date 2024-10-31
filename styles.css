@@ -599,3 +599,142 @@ footer {
     padding-top:25px;
     text-align: center;
 }
+
+/* -----------------------------------mobile responsive-----------------------------  */
+@media (max-width: 768px) {
+
+    /* Header and Nav */
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item>a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    /* Banner */
+    .banner-contents {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .banner-text>h1 {
+        font-size: 36px;
+    }
+
+    .banner-text>p {
+        font-size: 14px;
+    }
+
+    .banner-buttons>button {
+        padding: 12px 30px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    /* Change Habit */
+    .change-habit-contents>h2 {
+        font-size: 36px;
+    }
+
+    .habit-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 8px;
+    }
+
+    /* Run Extra Mile */
+    .run-extra-mile-contents {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .text-content h1 {
+        font-size: 36px;
+    }
+
+    /* BMI Calculator */
+    .bmi-contents {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .bmi-calculator {
+        width: 100%;
+    }
+
+    /* Meet Our Team */
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-member {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Pricing */
+    .pricing-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-contents {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo {
+        font-size: 28px;
+    }
+
+    .footer-links h4 {
+        font-size: 24px;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+
+    .horizontal-line {
+        width: 100%;
+    }
+
+    .footer-copyright {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+}
