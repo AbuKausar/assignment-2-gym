@@ -276,6 +276,109 @@ nav {
     padding-right: 30px;
 }
 
+/* -----------------------------calculate bmi styles--------------------------- */
+.bmi-container {
+    background: rgb(34, 34, 34);
+}
+
+.bmi-contents {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 40px;
+    padding: 50px;
+}
+
+.bmi-chart h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+table,
+th,
+td {
+    border: 1px solid #444;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.bmi-calculator {
+    border-radius: 10px;
+    width: 500px;
+}
+
+.bmi-calculator h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-calculator p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom: 34px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+select {
+    background-color: #3c3c3c;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.calc-btn {
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 42px;
+    margin-top: 30px;
+}
+
 /* ---------------------------meet our team styles------------------------------ */
 .meet-team-container {
     background-color: black;
@@ -352,57 +455,50 @@ footer {
     color: #fff;
   }
 
-  .footer-contents {
+.footer-contents {
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .footer-logo {
+.footer-logo {
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
     padding-bottom: 30px;
-  }
+}
 
-  .footer-text {
+.footer-text {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-  }
+}
 
-  .footer-links {
-    /* display: flex;
-    justify-content: center;
-    gap: 80px;
-    margin-bottom: 20px; */
-  }
-
-  .footer-links div {
+.footer-links div {
     text-align: left;
-  }
+}
 
-  .footer-links a {
+.footer-links a {
     color: #b0b0b0;
     text-decoration: none;
     display: block;
     font-size: 14px;
     margin: 4px 0;
-  }
+}
 
-  .footer-copyright {
+.footer-copyright {
     font-size: 12px;
     color: #777;
     margin-top: 20px;
-  }
+}
 
-  .footer-links h4 {
+.footer-links h4 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 30px
-  }
+}
 
 .footer-links a {
     color: rgba(255, 255, 255, 0.5);
